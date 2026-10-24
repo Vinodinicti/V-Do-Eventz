@@ -230,8 +230,8 @@ export default function MobileHomePage() {
             <span className="w-1.5 h-1.5 rounded-full bg-[#E8C57A] shadow-[0_0_8px_#D8BD71]" />
             <span className="w-6 h-[1px] bg-gradient-to-l from-transparent to-[#D8BD71]" />
           </div>
-          <h2 className="font-serif text-[15px] text-white font-normal uppercase leading-tight mb-1 drop-shadow-[0_2px_12px_rgba(0,0,0,0.85)]">
-            WHERE CREATIVITY <span className="italic font-serif text-gold-gradient">MEETS PERFECTION</span>
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase leading-snug tracking-tight mb-2 text-center drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
+            <span className="text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">WHERE CREATIVITY</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">MEETS PERFECTION</span>
           </h2>
           <p className="text-[10px] text-[#F5E5BE] font-light leading-snug max-w-[270px] mx-auto mb-2 drop-shadow-sm">
             At V Do Eventz, we don't just manage events—we create emotions and everlasting memories.
@@ -306,8 +306,8 @@ export default function MobileHomePage() {
               <span className="w-8 h-[1px] bg-gradient-to-l from-transparent via-[#D8BD71] to-[#E8C57A]" />
             </div>
 
-            <h2 className="font-serif text-xl font-normal text-white tracking-tight uppercase drop-shadow-[0_4px_16px_rgba(0,0,0,0.8)]">
-              SPECIALIZED <span className="italic font-serif text-gold-gradient">SERVICES.</span>
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase leading-snug tracking-tight mb-2 text-center drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
+              <span className="text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">SPECIALIZED</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">SERVICES.</span>
             </h2>
           </div>
 
@@ -381,8 +381,8 @@ export default function MobileHomePage() {
             COMPANY MISSION & VISION
           </p>
 
-          <h2 className="font-serif text-lg font-normal tracking-tight uppercase leading-snug mb-1.5 text-[#E5E0D5] drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)]">
-            YOUR VISION. <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#D8BD71] via-[#F0C465] to-[#BEA256] italic font-serif">OUR EXPERTISE.</span>
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase leading-snug tracking-tight mb-2 text-center drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
+            <span className="text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">YOUR VISION.</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">OUR EXPERTISE.</span>
           </h2>
 
           <div className="flex items-center justify-center gap-2 text-[#D8BD71] mb-2">
@@ -436,8 +436,8 @@ export default function MobileHomePage() {
             <p className="text-[9.5px] uppercase tracking-[0.2em] text-[#D8BD71] font-semibold mb-1">
               EVENT HIGHLIGHTS
             </p>
-            <h2 className="font-serif text-lg text-[#E5E0D5] font-normal uppercase leading-tight">
-              SELECTED EVENT <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#D8BD71] via-[#F0C465] to-[#BEA256] italic font-serif">PHOTOGRAPHY</span>
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase leading-snug tracking-tight text-center drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
+              <span className="text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">SELECTED EVENT</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">PHOTOGRAPHY</span>
             </h2>
           </div>
 
