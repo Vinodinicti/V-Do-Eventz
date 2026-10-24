@@ -57,17 +57,17 @@ export default function Navbar() {
             </div>
           </Link>
 
-          {/* Desktop Navigation - Stronger Font, Brighter Luminous White & Gold */}
+          {/* Desktop Navigation - Previous text-xs size, bold weight & bright luminous colors */}
           <nav className="hidden lg:flex items-center gap-8">
             {navLinks.map((link) => (
               <NavLink
                 key={link.name}
                 to={link.path}
                 className={({ isActive }) =>
-                  `text-[13px] uppercase tracking-[0.16em] transition-all font-bold relative py-1 drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)] ${
+                  `text-xs uppercase tracking-widest transition-all font-bold relative py-1 drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)] ${
                     isActive
                       ? 'text-[#FFE39A] font-extrabold after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE39A] after:shadow-[0_0_10px_#FFE39A]'
-                      : 'text-white hover:text-[#FFE39A] hover:scale-105'
+                      : 'text-white hover:text-[#FFE39A]'
                   }`
                 }
               >

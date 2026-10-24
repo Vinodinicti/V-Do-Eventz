@@ -148,10 +148,10 @@ export default function MobileHomePage() {
 
         {/* Hero Editorial Content - Perfectly Vertically Centered */}
         <div className="relative z-20 mx-auto my-auto text-center flex flex-col items-center w-full px-2 py-2">
-          {/* Headline - Strong Font, Bright White & Glowing Gold */}
-          <h1 className="font-serif text-[23px] xs:text-[26px] font-extrabold text-white uppercase leading-snug tracking-tight mb-2.5 text-center max-w-xs mx-auto drop-shadow-[0_3px_16px_rgba(0,0,0,0.95)]">
+          {/* Headline - Previous Size (text-xl sm:text-[22px]), Bold Weight & Bright Colors */}
+          <h1 className="font-serif text-xl sm:text-[22px] font-bold text-white uppercase leading-snug tracking-tight mb-2.5 text-center max-w-xs mx-auto drop-shadow-[0_3px_16px_rgba(0,0,0,0.95)]">
             <span className="text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.95)]">TURNING IDEAS INTO</span> <br />
-            <span className="font-serif italic font-extrabold golden-glow-animate drop-shadow-[0_3px_16px_rgba(216,189,113,0.7)]">GRAND EXPERIENCES.</span>
+            <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_3px_16px_rgba(216,189,113,0.7)]">GRAND EXPERIENCES.</span>
           </h1>
 
           {/* Delicate Flourish Line */}

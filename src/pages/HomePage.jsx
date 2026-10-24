@@ -215,10 +215,10 @@ export default function HomePage() {
 
         {/* Hero Editorial Content */}
         <div className="relative z-20 max-w-4xl mx-auto my-auto text-center flex flex-col items-center w-full py-8">
-          {/* Headline - Strong Font, Bright White & Glowing Gold */}
-          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-extrabold text-white uppercase leading-[1.15] tracking-tight mb-4 text-center max-w-4xl mx-auto drop-shadow-[0_4px_24px_rgba(0,0,0,0.95)]">
+          {/* Headline - Previous Size (text-2xl sm:text-3xl md:text-4xl), Bold Weight & Bright Colors */}
+          <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase leading-snug tracking-tight mb-4 text-center max-w-2xl mx-auto drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
             <span className="text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">TURNING IDEAS INTO</span> <br />
-            <span className="font-serif italic font-extrabold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">GRAND EXPERIENCES.</span>
+            <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">GRAND EXPERIENCES.</span>
           </h1>
 
           {/* Delicate Flourish Line */}
