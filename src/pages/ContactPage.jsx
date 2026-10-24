@@ -104,8 +104,8 @@ export default function ContactPage() {
             <span className="w-1.5 h-1.5 rounded-full bg-[#E8C57A]" />
             <span className="w-8 sm:w-12 h-[1px] bg-[#D8BD71]/40" />
           </div>
-          <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl text-[#E5E0D5] font-normal uppercase tracking-tight mb-2 sm:mb-3 text-center mx-auto max-w-2xl leading-snug">
-            PLAN YOUR <span className="italic font-serif golden-glow-animate">EVENT.</span>
+          <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase tracking-tight mb-2 sm:mb-3 text-center mx-auto max-w-2xl leading-snug">
+            <span className="text-white">PLAN YOUR</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">EVENT.</span>
           </h1>
           <p className="text-xs sm:text-sm uppercase tracking-widest text-[#A39B8B] mb-4 sm:mb-0">
             Premier Event Management

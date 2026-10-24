@@ -197,8 +197,8 @@ export default function MobileServicesPage() {
             <span className="w-1.5 h-1.5 rounded-full bg-[#E8C57A]" />
             <span className="w-8 h-[1px] bg-[#D8BD71]/50" />
           </div>
-          <h1 className="font-serif text-2xl text-[#FFF9F2] font-normal uppercase tracking-tight mb-1 leading-snug drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)]">
-            OUR EVENT <span className="italic font-serif text-gold-gradient">SERVICES.</span>
+          <h1 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase tracking-tight mb-1 leading-snug text-center">
+            <span className="text-white">OUR EVENT</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">SERVICES.</span>
           </h1>
           <p className="text-[10.5px] uppercase tracking-wider text-[#E5E0D5]/90 font-medium">
             Signature Capabilities & Stagecraft

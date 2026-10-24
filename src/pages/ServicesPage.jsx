@@ -224,8 +224,8 @@ export default function ServicesPage() {
             <span className="w-1.5 h-1.5 rounded-full bg-[#E8C57A]" />
             <span className="w-12 h-[1px] bg-[#D8BD71]/50" />
           </div>
-          <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl text-[#FFF9F2] font-normal uppercase tracking-tight mb-3 text-center mx-auto max-w-2xl leading-snug drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)]">
-            OUR EVENT <span className="italic font-serif text-gold-gradient">SERVICES.</span>
+          <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase tracking-tight mb-3 text-center mx-auto max-w-2xl leading-snug">
+            <span className="text-white">OUR EVENT</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">SERVICES.</span>
           </h1>
           <p className="text-sm uppercase tracking-widest text-[#E5E0D5]/90 drop-shadow-sm">
             Signature Capabilities & Stagecraft

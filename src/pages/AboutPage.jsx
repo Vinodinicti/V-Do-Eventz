@@ -61,10 +61,10 @@ export default function AboutPage() {
             <span className="w-10 h-[1px] bg-gradient-to-l from-transparent via-[#D8BD71] to-[#E8C57A]" />
           </div>
 
-          {/* Reduced Font Size Main Headline */}
-          <h1 className="font-serif text-xl sm:text-2xl md:text-3xl text-white font-normal uppercase tracking-tight mb-3.5 text-center leading-snug drop-shadow-[0_2px_16px_rgba(0,0,0,0.8)]">
-            WHERE CREATIVITY <br />
-            <span className="italic font-serif golden-glow-animate">
+          {/* Main Headline - Same size (text-2xl sm:text-3xl md:text-4xl) & strong bold format */}
+          <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase tracking-tight mb-3.5 text-center leading-snug">
+            <span className="text-white">WHERE CREATIVITY</span> <br />
+            <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">
               MEETS PERFECTION.
             </span>
           </h1>

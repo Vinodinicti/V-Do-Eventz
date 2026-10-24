@@ -135,8 +135,8 @@ export default function GalleryPage() {
           <span className="w-12 h-[1px] bg-[#D8BD71]/40" />
         </div>
 
-        <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl text-[#E5E0D5] font-normal uppercase tracking-tight mb-3 text-center mx-auto max-w-2xl leading-snug">
-          EVENT <span className="italic font-serif golden-glow-animate">GALLERY.</span>
+        <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase tracking-tight mb-3 text-center mx-auto max-w-2xl leading-snug">
+          <span className="text-white">EVENT</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">GALLERY.</span>
         </h1>
 
         <p className="text-xs uppercase tracking-widest text-[#A39B8B] mb-5">

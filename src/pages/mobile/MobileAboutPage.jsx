@@ -52,9 +52,10 @@ export default function MobileAboutPage() {
             <span className="w-8 h-[1px] bg-gradient-to-l from-transparent via-[#D8BD71] to-[#E8C57A]" />
           </div>
 
-          <h1 className="font-serif text-xl font-normal uppercase tracking-tight text-white leading-tight mb-2 drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)]">
-            WHERE CREATIVITY <br />
-            <span className="italic font-serif golden-glow-animate">
+          {/* Main Headline - Same size (text-2xl sm:text-3xl) & strong bold format */}
+          <h1 className="font-serif text-2xl sm:text-3xl font-bold uppercase tracking-tight text-white leading-snug mb-2 text-center">
+            <span className="text-white">WHERE CREATIVITY</span> <br />
+            <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">
               MEETS PERFECTION.
             </span>
           </h1>
