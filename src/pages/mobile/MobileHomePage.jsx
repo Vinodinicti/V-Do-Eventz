@@ -148,9 +148,9 @@ export default function MobileHomePage() {
 
         {/* Hero Editorial Content */}
         <div className="relative z-20 max-w-4xl mx-auto my-auto text-center flex flex-col items-center w-full px-2 py-4">
-          {/* Headline - Exact Desktop Text and Styling */}
-          <h1 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase leading-snug tracking-tight mb-4 text-center max-w-md mx-auto drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
-            <span className="text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">TURNING IDEAS INTO</span> <br />
+          {/* Headline - Clean pure white without black shade behind TURNING IDEAS INTO */}
+          <h1 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase leading-snug tracking-tight mb-4 text-center max-w-md mx-auto">
+            <span className="text-white">TURNING IDEAS INTO</span> <br />
             <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">GRAND EXPERIENCES.</span>
           </h1>
 
