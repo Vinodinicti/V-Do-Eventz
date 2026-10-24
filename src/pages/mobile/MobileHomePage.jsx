@@ -124,8 +124,8 @@ export default function MobileHomePage() {
 
   return (
     <div className="bg-[#0D0D11] text-[#E5E0D5] w-full overflow-x-hidden">
-      {/* 1. CINEMATIC AUTO-CHANGING HERO SECTION (PERFECT 100% MOBILE VIEWPORT FIT) */}
-      <section className="relative h-screen h-[100dvh] min-h-[540px] max-h-[920px] w-full flex flex-col justify-between pt-20 pb-3 px-3.5 overflow-hidden bg-black">
+      {/* 1. CINEMATIC AUTO-CHANGING HERO SECTION (AS IT IS IN DESKTOP VIEW) */}
+      <section className="relative h-screen h-[100dvh] min-h-[560px] max-h-[920px] w-full flex flex-col justify-between pt-22 pb-3.5 px-3 sm:px-6 overflow-hidden bg-black">
         {/* Automatic Cross-fade Background Slideshow (100% fit) */}
         <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
           {heroSlides.map((slide, idx) => (
@@ -138,67 +138,73 @@ export default function MobileHomePage() {
               <img
                 src={slide.image}
                 alt={slide.alt}
-                className="w-full h-full object-cover object-center filter brightness-[0.86] contrast-[1.05]"
+                className="w-full h-full object-cover object-center filter brightness-[0.86] contrast-[1.05] scale-100"
               />
-              {/* Balanced Dark Gradient Overlay - Slightly darker for dramatic luxury contrast */}
+              {/* Balanced Dark Gradient Overlay - matching desktop */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-black/45 pointer-events-none" />
             </div>
           ))}
         </div>
 
-        {/* Hero Editorial Content - Perfectly Vertically Centered */}
-        <div className="relative z-20 mx-auto my-auto text-center flex flex-col items-center w-full px-2 py-2">
-          {/* Headline - Previous Size (text-xl sm:text-[22px]), Bold Weight & Bright Colors */}
-          <h1 className="font-serif text-xl sm:text-[22px] font-bold text-white uppercase leading-snug tracking-tight mb-2.5 text-center max-w-xs mx-auto drop-shadow-[0_3px_16px_rgba(0,0,0,0.95)]">
-            <span className="text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.95)]">TURNING IDEAS INTO</span> <br />
-            <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_3px_16px_rgba(216,189,113,0.7)]">GRAND EXPERIENCES.</span>
+        {/* Hero Editorial Content */}
+        <div className="relative z-20 max-w-4xl mx-auto my-auto text-center flex flex-col items-center w-full px-2 py-4">
+          {/* Headline - Exact Desktop Text and Styling */}
+          <h1 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase leading-snug tracking-tight mb-4 text-center max-w-md mx-auto drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
+            <span className="text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">TURNING IDEAS INTO</span> <br />
+            <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">GRAND EXPERIENCES.</span>
           </h1>
 
           {/* Delicate Flourish Line */}
-          <div className="flex items-center justify-center gap-2.5 text-[#FFE39A] mb-3.5 drop-shadow-[0_0_8px_rgba(255,227,154,0.5)]">
-            <span className="w-10 h-[1.5px] bg-[#FFE39A]" />
-            <span className="w-2 h-2 rounded-full bg-[#FFE39A] shadow-[0_0_8px_#FFE39A]" />
-            <span className="w-10 h-[1.5px] bg-[#FFE39A]" />
+          <div className="flex items-center justify-center gap-3 text-[#FFE39A] mb-5 drop-shadow-[0_0_8px_rgba(255,227,154,0.5)]">
+            <span className="w-12 h-[1.5px] bg-[#FFE39A]" />
+            <span className="w-2 h-2 rounded-full bg-[#FFE39A] shadow-[0_0_10px_#FFE39A]" />
+            <span className="w-12 h-[1.5px] bg-[#FFE39A]" />
           </div>
 
-          {/* Action Buttons in Luxury Gold & Dark Styling (Curved, Clean Fit) */}
-          <div className="flex flex-row items-center justify-center gap-2.5 w-full max-w-[280px]">
+          {/* Action Buttons - Exact Desktop Text "Explore Our Services" and "Plan Your Event" */}
+          <div className="flex flex-wrap items-center justify-center gap-2.5 w-full max-w-xs mx-auto">
             <Link
               to="/services"
-              className="flex-1 inline-flex items-center justify-center gap-1 px-3 py-2.5 rounded-full bg-gradient-to-r from-[#D8BD71] via-[#E8C57A] to-[#BEA256] text-[#0D0D11] font-bold text-[10px] uppercase tracking-wider transition-all duration-300 shadow-[0_3px_12px_rgba(216,189,113,0.3)] active:scale-95"
+              className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-full bg-gradient-to-r from-[#D8BD71] via-[#E8C57A] to-[#BEA256] text-[#0D0D11] font-bold text-[11px] uppercase tracking-[0.18em] transition-all duration-300 shadow-[0_4px_16px_rgba(216,189,113,0.25)] hover:brightness-110 active:scale-95 cursor-pointer"
             >
-              <span>Explore Services</span>
+              <span>Explore Our Services</span>
               <span className="text-xs">→</span>
             </Link>
 
             <Link
               to="/contact"
-              className="flex-1 inline-flex items-center justify-center gap-1 px-3 py-2.5 rounded-full bg-[#141419]/90 text-[#E5E0D5] text-[10px] uppercase tracking-wider font-semibold transition-all duration-300 border border-[#D8BD71]/40 active:scale-95"
+              className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-full bg-[#141419]/90 hover:bg-[#1C1C24] text-[#E5E0D5] hover:text-[#D8BD71] text-[11px] uppercase tracking-[0.18em] font-medium transition-all duration-300 shadow-sm border border-[#D8BD71]/35 active:scale-95 cursor-pointer"
             >
               <span>Plan Your Event</span>
             </Link>
           </div>
         </div>
 
-        {/* Hero Bottom Bar with Luxury Dark & Gold Styling */}
-        <div className="relative z-20 w-full pt-2 pb-2 px-3 rounded-lg border border-[#D8BD71]/25 bg-[#141419]/85 backdrop-blur-md flex items-center justify-between text-[10px] text-[#A39B8B] shadow-sm">
-          <div className="flex items-center gap-1.5 truncate pr-2">
-            <span className="uppercase tracking-widest text-[10px] font-bold text-[#E8C57A]">V Do Eventz</span>
-            <span className="text-[#D8BD71]/40">•</span>
-            <span className="tracking-wide text-[9px] text-[#E5E0D5] font-medium truncate">
-              {heroSlides[currentSlide].caption}
+        {/* Hero Bottom Bar - Matching Desktop Content, Labels & Indicators */}
+        <div className="relative z-20 w-full pt-2.5 pb-2.5 px-3 rounded-lg border border-[#D8BD71]/25 bg-[#141419]/80 backdrop-blur-md flex flex-col gap-2 shadow-sm text-xs text-[#A39B8B]">
+          <div className="flex items-center justify-between w-full">
+            <div className="flex items-center gap-2 truncate pr-2">
+              <span className="uppercase tracking-widest text-[10.5px] font-bold golden-glow-animate">V Do Eventz</span>
+              <span className="text-[#D8BD71]/40">•</span>
+              <span className="text-[10px] tracking-wide text-[#E5E0D5] font-medium truncate">
+                {heroSlides[currentSlide].caption}
+              </span>
+            </div>
+
+            <span className="tracking-wider text-[10px] text-[#D8BD71] font-semibold shrink-0">
+              Event Production House
             </span>
           </div>
 
-          {/* Slide Indicator Pills */}
-          <div className="flex items-center gap-1.5 shrink-0">
+          {/* Slide Indicator Pills - Matching Desktop Style (w-8 active, w-2 inactive) */}
+          <div className="flex items-center justify-center gap-2 w-full pt-1.5 border-t border-[#D8BD71]/15">
             {heroSlides.map((_, i) => (
               <button
                 key={i}
                 onClick={() => setCurrentSlide(i)}
                 aria-label={`Jump to slide ${i + 1}`}
-                className={`h-1.5 rounded-full transition-all duration-500 ${
-                  i === currentSlide ? 'w-5 bg-[#D8BD71]' : 'w-1.5 bg-[#D8BD71]/35'
+                className={`h-1.5 rounded-full transition-all duration-500 cursor-pointer ${
+                  i === currentSlide ? 'w-8 bg-[#D8BD71]' : 'w-2 bg-[#D8BD71]/30 hover:bg-[#D8BD71]/60'
                 }`}
               />
             ))}
