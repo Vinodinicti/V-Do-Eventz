@@ -205,10 +205,10 @@ export default function HomePage() {
               <img
                 src={slide.image}
                 alt={slide.alt}
-                className="w-full h-full object-cover object-center filter brightness-[0.96] contrast-[1.02] scale-100"
+                className="w-full h-full object-cover object-center filter brightness-[0.86] contrast-[1.05] scale-100"
               />
-              {/* Soft Gradient Overlay - Reduced shade for vibrant, clear image visibility */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/15 to-black/30 pointer-events-none" />
+              {/* Balanced Dark Gradient Overlay - Slightly darker for dramatic luxury contrast */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-black/45 pointer-events-none" />
             </div>
           ))}
         </div>
