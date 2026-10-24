@@ -32,7 +32,7 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isTransparent
-          ? 'bg-gradient-to-b from-black/85 via-black/40 to-transparent py-4 border-b border-transparent shadow-none'
+          ? 'bg-gradient-to-b from-black/85 via-black/40 to-transparent py-4 border-none border-b-0 shadow-none'
           : 'bg-[#0D0D11]/95 backdrop-blur-md border-b border-[#D8BD71]/35 shadow-xl py-3'
       }`}
     >
