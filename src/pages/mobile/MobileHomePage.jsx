@@ -213,9 +213,9 @@ export default function MobileHomePage() {
           <img
             src="/assets/home-who-we-are-bg.jpg"
             alt="Royal Sunset Indian Wedding Banquet and Mandap"
-            className="w-full h-full object-cover object-center filter brightness-95 contrast-105"
+            className="w-full h-full object-cover object-center filter brightness-[0.86] contrast-[1.05]"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#0D0D11]/85 via-[#0D0D11]/70 to-[#0D0D11]/88" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/30 to-black/45" />
         </div>
 
         <div className="px-3 relative z-10">
@@ -282,9 +282,9 @@ export default function MobileHomePage() {
           <img
             src="/assets/home-specialized-services-bg.jpg"
             alt="V Do Eventz Grand Floral Stage"
-            className="w-full h-full object-cover object-center filter brightness-90 contrast-[1.05]"
+            className="w-full h-full object-cover object-center filter brightness-[0.86] contrast-[1.05]"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/55 to-black/80" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/30 to-black/45" />
         </div>
 
         <div className="relative z-10 px-3.5">
@@ -360,13 +360,13 @@ export default function MobileHomePage() {
       {/* 4. COMPANY MISSION & VISION OVER GRAND STAGE */}
       <section className="relative py-5 overflow-hidden border-b border-[#D8BD71]/20 flex items-center justify-center">
         {/* Full Grand Stage Background Image */}
-        <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 z-0 pointer-events-none">
           <img
             src="/assets/hero-beach-infinity.jpg"
             alt="V Do Eventz Grand Stage Production"
-            className="w-full h-full object-cover object-center filter brightness-[0.8] contrast-[1.08]"
+            className="w-full h-full object-cover object-center filter brightness-[0.86] contrast-[1.05]"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#0D0D11]/85 via-black/30 to-[#0D0D11]/85" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/30 to-black/45" />
         </div>
 
         {/* Content Floating Over Grand Stage */}

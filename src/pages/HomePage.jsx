@@ -282,10 +282,10 @@ export default function HomePage() {
           <img
             src="/assets/home-who-we-are-bg.jpg"
             alt="Royal Sunset Indian Wedding Banquet and Mandap"
-            className="w-full h-full object-cover object-center filter brightness-95 contrast-105"
+            className="w-full h-full object-cover object-center filter brightness-[0.86] contrast-[1.05]"
           />
-          {/* Balanced dark gradient overlay to ensure perfect readability while showcasing the sunset banquet */}
-          <div className="absolute inset-0 bg-gradient-to-b from-[#0D0D11]/78 via-[#0D0D11]/60 to-[#0D0D11]/82" />
+          {/* Balanced dark gradient overlay matching hero section */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/30 to-black/45" />
         </div>
 
         <div className="max-w-5xl mx-auto px-4 sm:px-6 relative z-10">
@@ -390,10 +390,10 @@ export default function HomePage() {
           <img
             src="/assets/home-specialized-services-bg.jpg"
             alt="V Do Eventz Grand Floral Stage"
-            className="w-full h-full object-cover object-center filter brightness-90 contrast-[1.05]"
+            className="w-full h-full object-cover object-center filter brightness-[0.86] contrast-[1.05]"
           />
-          {/* Black shade overlay for text and card contrast */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/55 to-black/80" />
+          {/* Black shade overlay matching hero section */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/30 to-black/45" />
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -467,16 +467,15 @@ export default function HomePage() {
 
       {/* 4. COMPANY MISSION & VISION OVER GRAND STAGE */}
       <section className="relative py-9 sm:py-11 overflow-hidden border-b border-[#D8BD71]/20 flex items-center justify-center">
-        {/* Full Grand Stage Background Image (Highly Visible) */}
-        <div className="absolute inset-0 z-0">
+        {/* Full Grand Stage Background Image (Matching Hero Section Black Shade) */}
+        <div className="absolute inset-0 z-0 pointer-events-none">
           <img
             src="/assets/hero-beach-infinity.jpg"
             alt="V Do Eventz Grand Stage Production"
-            className="w-full h-full object-cover object-center filter brightness-[0.82] contrast-[1.08]"
+            className="w-full h-full object-cover object-center filter brightness-[0.86] contrast-[1.05]"
           />
-          {/* Edge Blends with Clear Center for High Stage Visibility */}
-          <div className="absolute inset-0 bg-gradient-to-b from-[#0D0D11]/80 via-black/20 to-[#0D0D11]/80" />
-          <div className="absolute inset-0 bg-black/15 pointer-events-none" />
+          {/* Black shade overlay matching hero section */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/30 to-black/45" />
         </div>
 
         {/* Content Floating Over Grand Stage (Compact Sizing) */}
