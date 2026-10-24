@@ -32,8 +32,8 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isTransparent
-          ? 'bg-transparent py-5 border-b border-transparent shadow-none'
-          : 'bg-[#0D0D11]/95 backdrop-blur-md border-b border-[#D8BD71]/25 shadow-xl py-3'
+          ? 'bg-gradient-to-b from-black/85 via-black/40 to-transparent py-4 border-b border-transparent shadow-none'
+          : 'bg-[#0D0D11]/95 backdrop-blur-md border-b border-[#D8BD71]/35 shadow-xl py-3'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -48,26 +48,26 @@ export default function Navbar() {
               />
             </div>
             <div className="flex flex-col">
-              <span className="font-display text-xl sm:text-2xl font-bold tracking-wide golden-glow-animate">
+              <span className="font-display text-xl sm:text-2xl font-bold tracking-wide golden-glow-animate drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
                 V Do Eventz
               </span>
-              <span className="text-[10px] tracking-wider uppercase font-medium text-[#BEA256] hidden sm:inline-block transition-colors">
+              <span className="text-[10px] tracking-wider uppercase font-semibold text-[#E8C57A] hidden sm:inline-block transition-colors drop-shadow-sm">
                 Event Management & Entertainment
               </span>
             </div>
           </Link>
 
-          {/* Desktop Navigation */}
+          {/* Desktop Navigation - Stronger Font, Brighter Luminous White & Gold */}
           <nav className="hidden lg:flex items-center gap-8">
             {navLinks.map((link) => (
               <NavLink
                 key={link.name}
                 to={link.path}
                 className={({ isActive }) =>
-                  `text-xs uppercase tracking-widest transition-colors font-medium relative py-1 ${
+                  `text-[13px] uppercase tracking-[0.16em] transition-all font-bold relative py-1 drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)] ${
                     isActive
-                      ? 'text-[#D8BD71] font-semibold after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1.5px] after:bg-[#D8BD71]'
-                      : 'text-[#C5BFB2] hover:text-[#D8BD71]'
+                      ? 'text-[#FFE39A] font-extrabold after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE39A] after:shadow-[0_0_10px_#FFE39A]'
+                      : 'text-white hover:text-[#FFE39A] hover:scale-105'
                   }`
                 }
               >
@@ -127,8 +127,8 @@ export default function Navbar() {
                 to={link.path}
                 onClick={() => setMobileMenuOpen(false)}
                 className={({ isActive }) =>
-                  `text-sm uppercase tracking-widest py-2 border-b border-[#D8BD71]/15 transition-colors ${
-                    isActive ? 'text-[#D8BD71] font-bold' : 'text-[#C5BFB2] hover:text-[#D8BD71]'
+                  `text-sm uppercase tracking-widest py-2.5 font-bold border-b border-[#D8BD71]/20 transition-colors ${
+                    isActive ? 'text-[#FFE39A] font-extrabold' : 'text-white hover:text-[#FFE39A]'
                   }`
                 }
               >

@@ -148,17 +148,17 @@ export default function MobileHomePage() {
 
         {/* Hero Editorial Content - Perfectly Vertically Centered */}
         <div className="relative z-20 mx-auto my-auto text-center flex flex-col items-center w-full px-2 py-2">
-          {/* Headline (Small & Center Aligned with crisp drop-shadow) */}
-          <h1 className="font-serif text-xl sm:text-[22px] font-normal text-[#FFF9F2] uppercase leading-snug tracking-tight mb-2.5 text-center max-w-xs mx-auto drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
-            TURNING IDEAS INTO <br />
-            <span className="font-serif italic font-normal golden-glow-animate">GRAND EXPERIENCES.</span>
+          {/* Headline - Strong Font, Bright White & Glowing Gold */}
+          <h1 className="font-serif text-[23px] xs:text-[26px] font-extrabold text-white uppercase leading-snug tracking-tight mb-2.5 text-center max-w-xs mx-auto drop-shadow-[0_3px_16px_rgba(0,0,0,0.95)]">
+            <span className="text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.95)]">TURNING IDEAS INTO</span> <br />
+            <span className="font-serif italic font-extrabold golden-glow-animate drop-shadow-[0_3px_16px_rgba(216,189,113,0.7)]">GRAND EXPERIENCES.</span>
           </h1>
 
           {/* Delicate Flourish Line */}
-          <div className="flex items-center justify-center gap-2.5 text-[#E8C57A] mb-3.5 drop-shadow-sm">
-            <span className="w-8 h-[1px] bg-[#E8C57A]/60" />
-            <span className="w-1.5 h-1.5 rounded-full bg-[#E8C57A]" />
-            <span className="w-8 h-[1px] bg-[#E8C57A]/60" />
+          <div className="flex items-center justify-center gap-2.5 text-[#FFE39A] mb-3.5 drop-shadow-[0_0_8px_rgba(255,227,154,0.5)]">
+            <span className="w-10 h-[1.5px] bg-[#FFE39A]" />
+            <span className="w-2 h-2 rounded-full bg-[#FFE39A] shadow-[0_0_8px_#FFE39A]" />
+            <span className="w-10 h-[1.5px] bg-[#FFE39A]" />
           </div>
 
           {/* Action Buttons in Luxury Gold & Dark Styling (Curved, Clean Fit) */}
