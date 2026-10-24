@@ -295,8 +295,8 @@ export default function HomePage() {
             <span className="w-10 h-[1px] bg-gradient-to-l from-transparent to-[#D8BD71]" />
           </div>
 
-          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase leading-snug tracking-tight mb-3 text-center drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
-            <span className="text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">WHERE CREATIVITY</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">MEETS PERFECTION</span>
+          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase leading-snug tracking-tight mb-3 text-center">
+            <span className="text-white">WHERE CREATIVITY</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">MEETS PERFECTION</span>
           </h2>
           <p className="text-xs sm:text-sm text-[#F5E5BE] font-light leading-relaxed max-w-2xl mx-auto mb-7 drop-shadow-md">
             At V Do Eventz, we don't just manage events—we create emotions, unforgettable moments, and memories that last forever.
@@ -409,8 +409,8 @@ export default function HomePage() {
               <span className="w-12 h-[1px] bg-gradient-to-l from-transparent via-[#D8BD71] to-[#E8C57A]" />
             </div>
 
-            <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase leading-snug tracking-tight mb-3 text-center drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
-              <span className="text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">SPECIALIZED</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">SERVICES.</span>
+            <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase leading-snug tracking-tight mb-3 text-center">
+              <span className="text-white">SPECIALIZED</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">SERVICES.</span>
             </h2>
           </div>
 
@@ -484,9 +484,9 @@ export default function HomePage() {
             COMPANY MISSION & VISION
           </p>
 
-          {/* Main Headline - Same size (text-2xl sm:text-3xl md:text-4xl) and strong hero format */}
-          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase leading-snug tracking-tight mb-3 text-center drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
-            <span className="text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">YOUR VISION.</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">OUR EXPERTISE.</span>
+          {/* Main Headline - Clean text without black shadow */}
+          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase leading-snug tracking-tight mb-3 text-center">
+            <span className="text-white">YOUR VISION.</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">OUR EXPERTISE.</span>
           </h2>
 
           {/* Delicate Flourish Line */}
@@ -545,8 +545,8 @@ export default function HomePage() {
               <p className="text-[11px] uppercase tracking-[0.25em] text-[#D8BD71] font-semibold mb-2">
                 EVENT HIGHLIGHTS
               </p>
-              <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase leading-snug tracking-tight drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
-                <span className="text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">SELECTED EVENT</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">PHOTOGRAPHY</span>
+              <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-white uppercase leading-snug tracking-tight">
+                <span className="text-white">SELECTED EVENT</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">PHOTOGRAPHY</span>
               </h2>
             </div>
             <Link

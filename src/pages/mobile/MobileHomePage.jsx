@@ -230,8 +230,8 @@ export default function MobileHomePage() {
             <span className="w-1.5 h-1.5 rounded-full bg-[#E8C57A] shadow-[0_0_8px_#D8BD71]" />
             <span className="w-6 h-[1px] bg-gradient-to-l from-transparent to-[#D8BD71]" />
           </div>
-          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase leading-snug tracking-tight mb-2 text-center drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
-            <span className="text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">WHERE CREATIVITY</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">MEETS PERFECTION</span>
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase leading-snug tracking-tight mb-2 text-center">
+            <span className="text-white">WHERE CREATIVITY</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">MEETS PERFECTION</span>
           </h2>
           <p className="text-[10px] text-[#F5E5BE] font-light leading-snug max-w-[270px] mx-auto mb-2 drop-shadow-sm">
             At V Do Eventz, we don't just manage events—we create emotions and everlasting memories.
@@ -306,8 +306,8 @@ export default function MobileHomePage() {
               <span className="w-8 h-[1px] bg-gradient-to-l from-transparent via-[#D8BD71] to-[#E8C57A]" />
             </div>
 
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase leading-snug tracking-tight mb-2 text-center drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
-              <span className="text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">SPECIALIZED</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">SERVICES.</span>
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase leading-snug tracking-tight mb-2 text-center">
+              <span className="text-white">SPECIALIZED</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">SERVICES.</span>
             </h2>
           </div>
 
@@ -381,8 +381,8 @@ export default function MobileHomePage() {
             COMPANY MISSION & VISION
           </p>
 
-          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase leading-snug tracking-tight mb-2 text-center drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
-            <span className="text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">YOUR VISION.</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">OUR EXPERTISE.</span>
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase leading-snug tracking-tight mb-2 text-center">
+            <span className="text-white">YOUR VISION.</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">OUR EXPERTISE.</span>
           </h2>
 
           <div className="flex items-center justify-center gap-2 text-[#D8BD71] mb-2">
@@ -436,8 +436,8 @@ export default function MobileHomePage() {
             <p className="text-[9.5px] uppercase tracking-[0.2em] text-[#D8BD71] font-semibold mb-1">
               EVENT HIGHLIGHTS
             </p>
-            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase leading-snug tracking-tight text-center drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
-              <span className="text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">SELECTED EVENT</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">PHOTOGRAPHY</span>
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-white uppercase leading-snug tracking-tight text-center">
+              <span className="text-white">SELECTED EVENT</span> <span className="font-serif italic font-bold golden-glow-animate drop-shadow-[0_4px_20px_rgba(216,189,113,0.7)]">PHOTOGRAPHY</span>
             </h2>
           </div>
 
