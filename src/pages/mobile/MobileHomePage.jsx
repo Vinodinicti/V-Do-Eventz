@@ -138,10 +138,10 @@ export default function MobileHomePage() {
               <img
                 src={slide.image}
                 alt={slide.alt}
-                className="w-full h-full object-cover object-center filter brightness-[0.78] contrast-[1.08]"
+                className="w-full h-full object-cover object-center filter brightness-[0.96] contrast-[1.02]"
               />
-              {/* Balanced Black Gradient Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/55 pointer-events-none" />
+              {/* Soft Gradient Overlay - Reduced shade for vibrant, clear image visibility */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/15 to-black/30 pointer-events-none" />
             </div>
           ))}
         </div>
